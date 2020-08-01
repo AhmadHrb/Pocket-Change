@@ -1,0 +1,29 @@
+{
+  "name": "pocket-change",
+  "version": "1.0.0",
+  "description": "Organize and Create ChangeLogs with ease.",
+  "main": "index.js",
+  "bin": {
+    "pchg": "./index.js"
+  },
+  "scripts": {
+    "test": "pchg Hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PocketInc/Pocket-Change.git"
+  },
+  "keywords": [
+    "ChangeLog"
+  ],
+  "author": "Pocket, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PocketInc/Pocket-Change/issues"
+  },
+  "homepage": "https://github.com/PocketInc/Pocket-Change#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "insert-line": "^1.1.0"
+  }
+}
